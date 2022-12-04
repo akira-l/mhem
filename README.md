@@ -1,4 +1,4 @@
-# ELP 
+# MHEM 
 
 ## Introduction
 
@@ -18,7 +18,7 @@ Similar to [DCL](https://github.com/JDAI-CV/DCL).
 
 ## Training
 
-Run `train.py` to train ELP.
+Run `train.py` to train MHEM.
 
 For CUB / STCAR / AIR 
 
@@ -30,8 +30,6 @@ python train.py --data $DATASET --epoch 360 --backbone resnet50 \
                     --detail training_descibe --size 512 \
                     --crop 448 
 ```
-
-You can rewrite line 98-125 in utils/train_model.py for your own codebase. 
 
 ## Citation
 Please cite MHEM paper if you find MHEM is helpful in your work:
